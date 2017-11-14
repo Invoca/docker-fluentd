@@ -10,7 +10,7 @@ pipeline {
                 script {
                     imageArgs = [
                         dockerfile: '.',
-                        image_name: 'invocaops/docker-fluentd',
+                        image_name: 'invocaops/fluentd',
                     ]
                 }
             }
